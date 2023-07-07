@@ -22,9 +22,9 @@ driver.maximize_window()
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
     (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[4]/input")))
 driver.find_element(
-    By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[4]/input").send_keys("jiaenchang8@gmail.com")
+    By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[4]/input").send_keys("email")
 driver.find_element(
-    By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[5]/input").send_keys("Changjiaen5")
+    By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[5]/input").send_keys("password")
 driver.find_element(
     By.XPATH, "/html/body/div[1]/div/div/div[2]/form/input").click()
 time.sleep(4)
