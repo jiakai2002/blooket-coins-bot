@@ -108,6 +108,7 @@ y = element_location["y"] + panel_height + 44  # chrome controlled label height
 # *** PRESS CTRL+ALT+M TO FORCE STOP SCRIPT ***
 # *** WARNING: THIS CLOSES BLOOKET! ***
 # start autoclick
+pyautogui.PAUSE = 0.00001
 print(datetime.now().time().strftime(
     "[%H:%M:%S]"), "Autoclicking now for 6 minutes...")
 end_time = time.time() + 6 * 60
