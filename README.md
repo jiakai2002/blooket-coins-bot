@@ -10,6 +10,7 @@ Bot to automatically earn daily blooket coins.<br>
 * **python >= 3.11.3**
 * High speed Internet Connection
 * Blooket set with 1 question + 2 answers (both correct)
+* (for mac users) System preferences > Security & Privacy > Accesibility > Under privacy tab, allow iTerm and VScode control
 
 # How to get started
 ## 1. Install the script
