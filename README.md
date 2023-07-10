@@ -1,6 +1,6 @@
 # blooket-coins-bot
 
-Bot to automate earning daily blooket coins.<br>
+Bot to automatically earn daily blooket coins.<br>
 
 **How it works:** Bot opens chrome, logs in to blooket, plays cafe game and autoclicks for 6 minutes.<br>
 
@@ -21,10 +21,6 @@ git clone https://github.com/jiakai2002/blooket-coins-bot.git
 
 ```
 cd blooket-coins-bot
-```
-
-```
-python3 -m pip install --upgrade pip wheel
 ```
 
 ```
