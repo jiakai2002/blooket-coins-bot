@@ -47,6 +47,12 @@ password = "insert_your_password"
 ```
 
 Insert your Blooket account email and password
+e.g.
+```
+email = "floyd@gmail.com"
+password = "password123"
+```
+
 ## 3. Usage
 Go to your terminal and with cwd as blooket-coins-bot folder, run
 
