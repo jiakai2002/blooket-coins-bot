@@ -13,6 +13,6 @@ Bot to automate earning daily blooket coins.<br>
 
 # How to get started
 ### 1. Install the script
-   
+```git clone ```
 ### 2. Insert login details in script
 4. Run script
