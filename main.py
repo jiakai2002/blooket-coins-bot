@@ -4,7 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 import undetected_chromedriver as uc
-
 import time
 from datetime import datetime
 import pyautogui
