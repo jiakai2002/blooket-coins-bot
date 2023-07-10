@@ -69,10 +69,11 @@ wait.until(EC.element_to_be_clickable(
     (By.XPATH, "/html/body/div/div/div/div[3]/div[3]/div[2]/div[2]"))).click()
 
 # set time and host now
+minutes = 6
 time_input = wait.until(EC.element_to_be_clickable(
     (By.XPATH, "/html/body/div/div/div/div[3]/div[2]/div[4]/input")))
 driver.execute_script("arguments[0].value = ''", time_input)
-time_input.send_keys('1')
+time_input.send_keys(str(minutes))
 time.sleep(1)
 driver.find_element(
     By.XPATH, "/html/body/div/div/div/div[3]/div[2]/div[2]").click()
@@ -134,7 +135,7 @@ y = element_location["y"] + panel_height + 44  # chrome controlled label height
 pyautogui.PAUSE = 0.00001
 print(datetime.now().time().strftime(
     "[%H:%M:%S]"), "Autoclicking now for 6 minutes")
-end_time = time.time() + 60
+end_time = time.time() + 60 * minutes
 while True:
     pyautogui.click(x, y)
     if time.time() > end_time:
@@ -162,4 +163,4 @@ while True:
 print(datetime.now().time().strftime(
     "[%H:%M:%S]"), "Done. Thankyou for using KaiBot!")
 
-x = input("hi:")
+x = input("end:")
