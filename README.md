@@ -12,7 +12,7 @@ Bot to automate earning daily blooket coins.<br>
 * Blooket set with 1 question + 2 answers (both correct)
 
 # How to get started
-### 1. Install the script
+## 1. Install the script
 Go to your terminal and run<br>
 
 ```
@@ -39,12 +39,21 @@ pip3 install "setuptools<59"
 pip3 install -r requirements.txt
 ```
 
-### 2. Insert login details in script
-
-### 3. Usage
-Open command prompt in YouTube-Viewer folder and run
+## 2. Setup login details in script
+Open blooket-coins-bot.py at line 11 to 14
 
 ```
-python3 blooket-coin-bot.py
+# *** EDIT LOGIN DETAILS ****
+# don't worry, only you can see this
+email = "insert_your_email"
+password = "insert_your_password"
+```
+
+Insert your Blooket account email and password
+## 3. Usage
+Go to your terminal and with cwd as blooket-coins-bot folder, run
+
+```
+python3 blooket-coins-bot.py
 ```
 
