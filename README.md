@@ -44,7 +44,7 @@ pip3 install -r requirements.txt
 ## 2. Setup login details in script
 Open Python IDLE (search for "IDLE")<br>
 
-Go to File > Open > blooket-coins-bot
+Go to File > Open > blooket-coins-bot.py
 
 ```
 # *** EDIT LOGIN DETAILS ****
@@ -59,7 +59,7 @@ email = "floyd@gmail.com"
 password = "password123"
 ```
 
-Save your blooket-coins-bot file
+Save blooket-coins-bot.py
 ## 3. Usage
 Go to your terminal and with cwd as blooket-coins-bot folder, run
 
