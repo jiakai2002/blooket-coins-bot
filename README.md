@@ -19,8 +19,8 @@ Bot to automatically earn daily blooket coins.<br>
 # How to get started
 ## 1. Install the script
 Make sure you have read the requirements above <br>
-Go to your terminal and run<br>
 
+Go to your terminal and run
 ```
 git clone https://github.com/jiakai2002/blooket-coins-bot.git
 ```
@@ -42,7 +42,9 @@ pip3 install -r requirements.txt
 ```
 
 ## 2. Setup login details in script
-Open blooket-coins-bot.py at line 11 to 14
+Open Python IDLE (search for "IDLE")<br>
+
+Go to File > Open > blooket-coins-bot
 
 ```
 # *** EDIT LOGIN DETAILS ****
@@ -51,12 +53,13 @@ email = "insert_your_email"
 password = "insert_your_password"
 ```
 
-Insert your Blooket account email and password e.g. <br>
+Insert your Blooket email and password, for e.g. <br>
 ```
 email = "floyd@gmail.com"
 password = "password123"
 ```
 
+Save your blooket-coins-bot file
 ## 3. Usage
 Go to your terminal and with cwd as blooket-coins-bot folder, run
 
