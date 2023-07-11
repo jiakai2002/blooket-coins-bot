@@ -8,12 +8,17 @@ Bot to automatically earn daily blooket coins.<br>
 
 # Requirements
 * **python >= 3.11.3**
+    * [Install python](https://www.python.org/downloads/)
+* Git
+    * [Git for Windows](https://gitforwindows.org/)
+    * [Git for MacOS](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
 * High speed Internet Connection
 * Blooket set with 1 question + 2 answers (both correct)
-* (For mac users) System preferences > Security & Privacy > Accesibility > Under privacy tab, allow iTerm and VScode control
+* (Only for mac users) System preferences > Security & Privacy > Accesibility > Under privacy tab, allow iTerm and VScode control
 
 # How to get started
 ## 1. Install the script
+Make sure you have read the requirements above <br>
 Go to your terminal and run<br>
 
 ```
