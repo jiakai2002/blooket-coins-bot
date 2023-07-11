@@ -51,8 +51,7 @@ email = "insert_your_email"
 password = "insert_your_password"
 ```
 
-Insert your Blooket account email and password<br>
-e.g.
+Insert your Blooket account email and password e.g. <br>
 ```
 email = "floyd@gmail.com"
 password = "password123"
