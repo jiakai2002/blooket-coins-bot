@@ -61,8 +61,12 @@ password = "password123"
 
 Save blooket-coins-bot.py
 ## 3. Usage
-Go to your terminal and with cwd as blooket-coins-bot folder, run
+Subsequently, you can do this to run the bot: <br>
 
+Go to your terminal and run
+```
+cd blooket-coins-bot
+```
 ```
 python3 blooket-coins-bot.py
 ```
