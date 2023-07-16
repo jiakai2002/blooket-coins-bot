@@ -10,7 +10,7 @@ import pyautogui
 
 # *** EDIT LOGIN DETAILS ****
 # don't worry, only you can see this
-email = "insert_your_email"
+user = "insert_your_user"
 password = "insert_your_password"
 
 options = Options()
