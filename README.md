@@ -8,14 +8,19 @@ Bot to automatically earn daily blooket coins.<br>
 
 # Requirements
 * **python >= 3.11.3**
+    * [Install python](https://www.python.org/downloads/)
+* Git
+    * [Git for Windows](https://gitforwindows.org/)
+    * [Git for MacOS](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
 * High speed Internet Connection
 * Blooket set with 1 question + 2 answers (both correct)
-* (For mac users) System preferences > Security & Privacy > Accesibility > Under privacy tab, allow iTerm and VScode control
+* (Only for mac users) System preferences > Security & Privacy > Accesibility > Under privacy tab, allow iTerm and VScode control
 
 # How to get started
 ## 1. Install the script
-Go to your terminal and run<br>
+Make sure you have read the requirements above <br>
 
+Go to your terminal and run
 ```
 git clone https://github.com/jiakai2002/blooket-coins-bot.git
 ```
@@ -37,7 +42,9 @@ pip3 install -r requirements.txt
 ```
 
 ## 2. Setup login details in script
-Open blooket-coins-bot.py at line 11 to 14
+Open Python IDLE (search for "IDLE")<br>
+
+Go to File > Open > blooket-coins-bot.py
 
 ```
 # *** EDIT LOGIN DETAILS ****
@@ -46,16 +53,21 @@ user = "insrt_your_user"
 password = "insert_your_password"
 ```
 
-Insert your blooket account details<br>
+Insert your Blooket account email and password<br>
 e.g.
 ```
 user = "floyd@gmail.com"
 password = "password123"
 ```
 
+Save blooket-coins-bot.py
 ## 3. Usage
-Go to your terminal and with cwd as blooket-coins-bot folder, run
+Subsequently, you can do this to run the bot: <br>
 
+Go to your terminal and run
+```
+cd blooket-coins-bot
+```
 ```
 python3 blooket-coins-bot.py
 ```
