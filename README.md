@@ -49,14 +49,14 @@ Go to File > Open > blooket-coins-bot.py
 ```
 # *** EDIT LOGIN DETAILS ****
 # don't worry, only you can see this
-user = "insrt_your_user"
-password = "insert_your_password"
+username = "insert_username_here"
+password = "insert_password_here"
 ```
 
 Insert your Blooket account email and password<br>
 e.g.
 ```
-user = "floyd@gmail.com"
+username = "floyd@gmail.com"
 password = "password123"
 ```
 

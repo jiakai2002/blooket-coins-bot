@@ -10,8 +10,8 @@ import pyautogui
 
 # *** EDIT LOGIN DETAILS ****
 # don't worry, only you can see this
-user = "insert_your_user"
-password = "insert_your_password"
+username = "insert_username_here"
+password = "insert_password_here"
 
 options = Options()
 # bug to be fixed: detach option not regonized
@@ -44,7 +44,7 @@ wait = WebDriverWait(driver, 15)
 wait.until(EC.element_to_be_clickable(
     (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[4]/input")))
 driver.find_element(
-    By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[4]/input").send_keys(user)
+    By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[4]/input").send_keys(username)
 driver.find_element(
     By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div[5]/input").send_keys(password)
 driver.find_element(
@@ -120,22 +120,18 @@ wait.until(EC.element_to_be_clickable(
     (By.XPATH, "/html/body/div/div/div/div[3]/form/div[2]/div/div"))).click()
 time.sleep(1)
 
-# get absolute element location
-panel_height = driver.execute_script(
-    'return window.outerHeight - window.innerHeight;')
-element_location = driver.find_element(
-    By.ID, "restock").location
-x = element_location["x"] + 150
-y = element_location["y"] + panel_height + 44  # chrome controlled label height
-
 # *** PRESS CTRL+ALT+M TO FORCE STOP SCRIPT ***
 # *** WARNING: THIS CLOSES BLOOKET! ***
 # start autoclick
+pos = driver.find_element(By.ID, "restock").location
+x, y = pos["x"], pos["y"]
 pyautogui.PAUSE = 0.00001
 print(datetime.now().time().strftime(
     "[%H:%M:%S]"), "Autoclicking now for 6 minutes")
-end_time = time.time() + 60 * minutes
+end_time = time.time() + 5
 while True:
+    pyautogui.press(' ')
+    pyautogui.click(x, y)
     pyautogui.click(x, y)
     if time.time() > end_time:
         break
