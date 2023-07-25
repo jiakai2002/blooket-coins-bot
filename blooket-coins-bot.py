@@ -128,7 +128,7 @@ x, y = pos["x"], pos["y"]
 pyautogui.PAUSE = 0.00001
 print(datetime.now().time().strftime(
     "[%H:%M:%S]"), "Autoclicking now for 6 minutes")
-end_time = time.time() + 5
+end_time = time.time() + 60 * minutes
 while True:
     pyautogui.press(' ')
     pyautogui.click(x, y)
